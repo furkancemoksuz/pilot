@@ -21,8 +21,6 @@ services:
       start_period: 10s
     networks:
       - ownpilot-network
-    profiles:
-      - postgres
 
   # OwnPilot (API + UI in a single container)
   # To use pre-built image instead of local build:
